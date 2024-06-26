@@ -1,64 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Simple HTML Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>icURisk</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Simple HTML Page</h1>
+        <div class="header-content">
+            <img src="image/logo.png" alt="Logo">
+        </div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="RiskCalculator.html">Risk Calculator & Mortality Predictor</a></li>
+                <li><a href="Dashboard.html">Dashboards</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h2>Main Content Area</h2>
-        <p>This is a simple HTML page with some inline CSS for basic styling.</p>
+        <div class="about-section">
+            <div class="container">
+                <div class="left">
+                    <img src="image/image1.png" alt="icURisk Healthcare Logo">
+                </div>
+                <div class="right">
+                    <h1>ABOUT</h1>
+                    <p>Welcome to <span>icURisk</span></p>
+                    <p>Our primary objective is to enhance the efficiency of ICU operations and deliver patient-centric care. We achieve this by utilising risk calculator to predict the likelihood of a patient's admission to ICU and a prediction model to forecast mortality rates.</p>
+                    <p>Our platform also offers healthcare professionals an easy-to-use dashboard that provides analyzed data to make informed decisions.</p>
+                    <p>We are committed to providing exceptional healthcare outcomes and look forward to working with you.</p>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-        <p>&copy; 2024 Simple HTML Page</p>
-        <script id="messenger-widget-b" src="https://cdn.botpenguin.com/website-bot.js" defer>664f4e5b0c1742d3de48b824,664f4e35d6c55ae5d747cc23</script>
+        <!--        <script id="messenger-widget-b" src="https://cdn.botpenguin.com/website-bot.js" defer>664f4e5b0c1742d3de48b824,664f4e35d6c55ae5d747cc23</script> -->
     </footer>
 </body>
 </html>
